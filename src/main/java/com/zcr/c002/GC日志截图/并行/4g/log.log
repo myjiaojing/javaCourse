@@ -1,0 +1,18 @@
+"C:\Program Files\Java\jdk1.8.0_271\bin\java.exe" -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Xmx4g -Xms4g -XX:+UseParallelGC "-javaagent:C:\dev\JetBrains\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=57038:C:\dev\JetBrains\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_271\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_271\jre\lib\rt.jar;C:\Users\zhaochurui\IdeaProjects\zcr\javaCourse\target\classes;C:\Users\zhaochurui\.m2\repository\com\squareup\okhttp3\okhttp\4.9.1\okhttp-4.9.1.jar;C:\Users\zhaochurui\.m2\repository\com\squareup\okio\okio\2.8.0\okio-2.8.0.jar;C:\Users\zhaochurui\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.4.0\kotlin-stdlib-common-1.4.0.jar;C:\Users\zhaochurui\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.4.10\kotlin-stdlib-1.4.10.jar;C:\Users\zhaochurui\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar" com.zcr.c002.teacherdemo.GCLogAnalysis
+正在执行...
+2021-07-04T17:54:08.908+0800: [GC (Allocation Failure) [PSYoungGen: 1048576K->174590K(1223168K)] 1048576K->223220K(4019712K), 0.0281921 secs] [Times: user=0.01 sys=0.23, real=0.03 secs]
+2021-07-04T17:54:09.060+0800: [GC (Allocation Failure) [PSYoungGen: 1223166K->174581K(1223168K)] 1271796K->348946K(4019712K), 0.0370096 secs] [Times: user=0.03 sys=0.22, real=0.04 secs]
+2021-07-04T17:54:09.213+0800: [GC (Allocation Failure) [PSYoungGen: 1223157K->174577K(1223168K)] 1397522K->480018K(4019712K), 0.0332866 secs] [Times: user=0.14 sys=0.11, real=0.03 secs]
+2021-07-04T17:54:09.370+0800: [GC (Allocation Failure) [PSYoungGen: 1223153K->174589K(1223168K)] 1528594K->600683K(4019712K), 0.0357148 secs] [Times: user=0.14 sys=0.06, real=0.04 secs]
+执行结束!共生成对象次数:19423
+Heap
+ PSYoungGen      total 1223168K, used 1223165K [0x000000076ab00000, 0x00000007c0000000, 0x00000007c0000000)
+  eden space 1048576K, 100% used [0x000000076ab00000,0x00000007aab00000,0x00000007aab00000)
+  from space 174592K, 99% used [0x00000007b5580000,0x00000007bffff688,0x00000007c0000000)
+  to   space 174592K, 0% used [0x00000007aab00000,0x00000007aab00000,0x00000007b5580000)
+ ParOldGen       total 2796544K, used 426093K [0x00000006c0000000, 0x000000076ab00000, 0x000000076ab00000)
+  object space 2796544K, 15% used [0x00000006c0000000,0x00000006da01b608,0x000000076ab00000)
+ Metaspace       used 3869K, capacity 4572K, committed 4864K, reserved 1056768K
+  class space    used 429K, capacity 460K, committed 512K, reserved 1048576K
+
+Process finished with exit code 0
