@@ -36,8 +36,7 @@ public class JdbcTest {
 
 
         //////////////////////////////////////////////
-        Connection conn2 = DriverManager.getConnection(JDBC_URL, USER, PASSWORD);
-        conn2.setAutoCommit(false);
+
 
 
 
