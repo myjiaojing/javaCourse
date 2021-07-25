@@ -15,6 +15,9 @@ public class WiringBeanMain1 {
         School2 s2 =(School2)context.getBean("school2");
         System.out.println(s2.toString());
 
+        School3 s3 =(School3)context.getBean("school3");
+        System.out.println(s3.toString());
+
 
 
     }
